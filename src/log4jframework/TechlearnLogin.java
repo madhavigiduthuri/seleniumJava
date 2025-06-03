@@ -25,12 +25,12 @@ public class TechlearnLogin {
 	  log.info("Browser Window Maximized");
 
 	  driver.get("https://www.techlearn.in/admin");
-	  log.info("Navigate to Techlearn Login page");
+	  log.info("Navigate to Techlearn Login page...");
 	  
-	  driver.findElement(By.xpath("//input[@id='user_login']")).sendKeys("Madhuu");
+	  driver.findElement(By.xpath("//input[@id='user_login']")).sendKeys("Madhavi");
 	  log.info("Enter the user name ");
 
-	  driver.findElement(By.xpath("//input[@id='user_pass']")).sendKeys("Kumar@10");
+	  driver.findElement(By.xpath("//input[@id='user_pass']")).sendKeys("Kumar@1095");
 	  log.info("Enter the password");
 	  
 	  driver.findElement(By.xpath("//input[@id='rememberme']")).click();
